@@ -7,7 +7,10 @@ Nodes Tools (NodeJS, Chromium, Angular/cli, Commitizen, etc)
 ## Préparation (Manuelle)
 
 ```bash
-# Tagguer l'image
+# Docker Build (Multi Architectures) and Push To Github
+.scripts/build_and_push.sh
+
+# Docker Build (Mono Architecture)
 docker build -t ghcr.io/laveracloudsolutions/node-tools:21-bullseye-slim .
 docker push ghcr.io/laveracloudsolutions/node-tools:21-bullseye-slim
 ```
