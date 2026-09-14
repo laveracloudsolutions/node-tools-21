@@ -2,8 +2,8 @@
   "images": [
     {
       "folder": ".",
-      "image_tag": "node-tools:21-bullseye-slim",
-      "image_additionnal_tag": "node-tools:21-01",
+      "image_tag": "node-tools:21-bookworm-slim",
+      "image_additionnal_tag": "node-tools:21",
       "platforms": "linux/amd64,linux/arm64"
     }
   ]
